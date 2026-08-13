@@ -59,11 +59,15 @@ Los plugins opcionales (custom-frames, grandfather, grafo-vivo) son de la comuni
 
 ## 💜 Donaciones
 
-¿Te gusta el tema? Si quieres invitarme un café, lo agradezco muchísimo:
+¡Gracias por llegar hasta aquí! 🙏
+
+Este proyecto se hace con mucho cariño y **cada donación cuenta**: nos ayuda a seguir creando **más actualizaciones, nuevas versiones y repos** con temas y herramientas para la comunidad. Si este tema te gusta y quieres apoyar el trabajo, te lo agradezco de corazón:
 
 [![Donar con PayPal](https://img.shields.io/badge/Donar-PayPal-blue.svg)](https://bit.ly/donar-paypal-jcarlo)
 
 👉 [https://bit.ly/donar-paypal-jcarlo](https://bit.ly/donar-paypal-jcarlo)
+
+**¡Mil gracias por tu apoyo!** 💙 Cada grano de arena hace posible lo que viene.
 
 ## 📄 Licencia
 
