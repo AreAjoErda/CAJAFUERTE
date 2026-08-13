@@ -1,0 +1,287 @@
+/* Iconos de la interfaz de Obsidian — colores por zona
+   Base (resto de iconos): perla #eae0c8
+   TODO el panel izquierdo (franja + explorador) + zona de arriba:
+   ROSADO INTENSO #ff1493
+*/
+body {
+  --icon-color: #eae0c8;
+  --icon-color-hover: #ffffff;
+  --icon-color-active: #ffffff;
+  --icon-color-focused: #ffffff;
+}
+
+/* ---- Panel izquierdo: franja de iconos (ribbon) en ROSADO INTENSO ---- */
+.workspace-ribbon {
+  --icon-color: #ff1493;
+  --icon-color-hover: #ffffff;
+  --icon-color-active: #ffffff;
+}
+.workspace-ribbon .clickable-icon:hover {
+  color: #ffffff;
+}
+
+/* ---- Panel izquierdo: iconos de carpetas y archivos en ROSADO INTENSO ---- */
+.nav-folder-title-icon,
+.nav-file-title-icon {
+  color: #ff1493;
+}
+
+/* ---- Barra de iconos arriba del explorador de archivos ----
+   (buscar, nueva carpeta, ordenar, cambiar vista, más opciones, editar
+   y las flechas de colapsar carpetas) */
+.workspace-leaf-content[data-type='file-explorer'] svg {
+  color: #ff1493;
+}
+.workspace-leaf-content[data-type='file-explorer'] .clickable-icon:hover svg {
+  color: #ffffff;
+}
+
+/* ---- Iconos de ABAJO: perfil del vault ----
+   switcher del vault (chevrons junto a "CAJA FUERTE"), signo de
+   interrogación (ayuda) y engranaje (ajustes) */
+.workspace-sidedock-vault-profile svg {
+  color: #ff1493;
+}
+.workspace-sidedock-vault-profile .workspace-drawer-vault-name {
+  color: #ff1493;
+}
+.workspace-sidedock-vault-profile .clickable-icon:hover svg,
+.workspace-sidedock-vault-profile .workspace-drawer-vault-switcher:hover svg,
+.workspace-sidedock-vault-profile .workspace-drawer-vault-switcher:hover .workspace-drawer-vault-name {
+  color: #ffffff;
+}
+
+/* ---- Flechas ">" de colapsar/expandir (triángulos) en MORADO INTENSO ----
+   carpetas del explorador y secciones de los controles del grafo */
+.workspace-leaf-content[data-type='file-explorer'] svg.right-triangle,
+.workspace-leaf-content[data-type='graph'] .view-content svg.right-triangle {
+  color: #8b00ff;
+}
+.workspace-leaf-content[data-type='file-explorer'] .tree-item-icon.collapse-icon:hover svg.right-triangle,
+.workspace-leaf-content[data-type='graph'] .clickable-icon:hover svg.right-triangle {
+  color: #ffffff;
+}
+
+/* ---- Iconos de arriba en ROSADO INTENSO #ff1493 ----
+   Zona de pestañas: se pintan TODOS los svg (icono de la pestaña, X de cerrar,
+   botón +, lista de pestañas, etc.) + el visor de PDF + botones de paneles.
+   Copilot: lápiz mágico (nuevo chat), engranaje (ajustes) y flecha del agente. */
+.workspace-tab-header svg,
+.workspace-tab-header-toolbar svg,
+.workspace-tab-header .workspace-tab-header-inner-icon,
+.workspace-tab-header .workspace-tab-header-inner-close-button,
+.workspace-tab-header-toolbar .clickable-icon,
+.view-header .view-header-icon,
+.view-header .view-actions .clickable-icon,
+.view-header svg,
+.pdf-toolbar .clickable-icon,
+.sidebar-toggle-button,
+.sidebar-toggle-button svg,
+.chat-icon-button svg,
+.chat-icons-right svg,
+.submit-button svg {
+  color: #ff1493;
+}
+
+/* ---- Iconos que faltaban: + de la franja de pestañas y chevron de la lista ----
+   (no son .workspace-tab-header, por eso no los cogía la regla anterior) */
+.workspace-tab-header-new-tab .clickable-icon svg,
+.workspace-tab-header-tab-list .clickable-icon svg {
+  color: #ff1493;
+}
+.workspace-tab-header-new-tab:hover .clickable-icon svg,
+.workspace-tab-header-tab-list:hover .clickable-icon svg {
+  color: #ffffff;
+}
+
+/* ---- Controles de la VISTA GRÁFICA ----
+   engranaje (lucide-settings), varita mágica (lucide-wand-2), reinicio,
+   triángulos de sección y las X de los filtros activos */
+.workspace-leaf-content[data-type='graph'] .view-content svg {
+  color: #ff1493;
+}
+.workspace-leaf-content[data-type='graph'] .view-content .clickable-icon:hover svg {
+  color: #ffffff;
+}
+
+/* ---- Botones de Copilot dentro del chat ----
+   + nuevo chat, + añadir contexto, historial, acciones de mensajes (copiar,
+   insertar, editar) y la varita de uso de contexto. Dejamos fuera el botón
+   de enviar/detener (mod-cta), que lleva su propio color de fondo. */
+.workspace-leaf-content[data-type='copilot-agent-chat-view'] .view-content .clickable-icon:not(.mod-cta) svg,
+.workspace-leaf-content[data-type='copilot-agent-chat-view'] svg.lucide-sparkles {
+  color: #ff1493;
+}
+.workspace-leaf-content[data-type='copilot-agent-chat-view'] .view-content .clickable-icon:hover svg {
+  color: #ffffff;
+}
+
+/* Hover en blanco para esos mismos iconos */
+.workspace-tab-header:hover svg,
+.workspace-tab-header:hover .workspace-tab-header-inner-icon,
+.workspace-tab-header:hover .workspace-tab-header-inner-close-button,
+.workspace-tab-header-toolbar .clickable-icon:hover,
+.view-header .view-actions .clickable-icon:hover,
+.pdf-toolbar .clickable-icon:hover,
+.sidebar-toggle-button:hover,
+.chat-icon-button:hover svg,
+.chat-icons-right:hover svg,
+.submit-button:hover svg {
+  color: #ffffff;
+}
+
+/* El tema Obsidianite pinta hover/activo con su acento; lo llevamos a blanco */
+.side-dock-ribbon-tab:hover,
+.side-dock-ribbon-action:hover,
+.workspace-ribbon-collapse-btn:hover,
+.workspace-tab-header:hover,
+.is-focused .mod-active .workspace-tab-header.is-active .workspace-tab-header-inner-icon {
+  color: #ffffff;
+}
+
+/* ---- Reloj de la barra de estado (Grandfather) ----
+   Hora con segundos corriendo en ROSADO INTENSO #ff1493. Los dígitos de
+   ancho fijo (tabular-nums) evitan que el reloj "baile" al correr los segundos */
+.status-bar-item.plugin-obsidian-grandfather {
+  color: #ff1493;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.status-bar-item.plugin-obsidian-grandfather:hover {
+  color: #ffffff;
+}
+
+/* ---- Fecha del reloj en AMARILLO INTENSO #ffd700 ----
+   (la hora sigue en rosado; es el mismo amarillo de IMAGENES del grafo)
+   El margen derecho separa la fecha de la hora */
+.status-bar-item.plugin-obsidian-grandfather .obsidian-grandfather-date {
+  color: #ffd700;
+  margin-right: 0.5em;
+}
+
+/* ---- Avatar de NEO (The Matrix) en el perfil del vault ----
+   La imagen IMAGENES/22.png (NEO de Matrix) se muestra como avatar
+   circular al lado de "CAJAFUERTE". Va incrustada en base64 dentro del
+   CSS (Obsidian bloquea rutas externas); la fuente es IMAGENES/22.png */
+.workspace-sidedock-vault-profile .workspace-drawer-vault-switcher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.workspace-sidedock-vault-profile .workspace-drawer-vault-switcher-icon {
+  display: none;
+}
+.workspace-sidedock-vault-profile .workspace-drawer-vault-switcher::before {
+  content: "";
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: url("data:image/png;base64,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") center / cover no-repeat;
+  border: 2px solid #ff1493;
+}
+
+/* ---- Paneles laterales con fondo NEGRO puro ----
+   El tema Obsidianite usa morado oscuro (rgb 25,22,33); lo llevamos
+   a negro #000000 para los paneles izquierdo y derecho */
+.mod-left-split,
+.mod-right-split,
+.mod-left-split .workspace-leaf,
+.mod-right-split .workspace-leaf {
+  background-color: #000000;
+}
+
+/* ---- Franja de iconos de la interfaz y perfil del vault (donde esta NEO)
+   tambien en negro puro ---- */
+.workspace-ribbon,
+.workspace-sidedock-vault-profile {
+  background-color: #000000;
+}
+.workspace-sidedock-vault-profile {
+  background-color: #000000 !important;
+}
+
+/* ---- Franjas de pestañas de los paneles laterales en negro ----
+   (la del calendario salia en morado oscuro y se veia como linea gris) */
+.mod-left-split .workspace-tab-header-container,
+.mod-right-split .workspace-tab-header-container {
+  background-color: #000000;
+}
+
+/* ---- LA CORONA: barra de estado y area central en negro puro ----
+   Con esto toda la interfaz queda negra con los acentos rosados/morados */
+.status-bar,
+.mod-root,
+.mod-root .workspace-leaf,
+.mod-root .view-content {
+  background-color: #000000 !important;
+}
+
+/* ---- Titulo de la ventana (arriba del todo) en negro puro ----
+   La linea donde dice "Vista grafica - CAJAFUERTE - Obsidian 1.13.6" */
+.titlebar {
+  background-color: #000000;
+}
+.titlebar-text {
+  color: #ff1493;
+}
+
+/* ---- Franja de pestañas del area central en negro ----
+   (donde dice "Vista grafica" y esta el boton +, salian grises) */
+.mod-root .workspace-tab-header-container,
+.mod-root .workspace-tab-header,
+.mod-root .workspace-tab-header.is-active,
+.mod-root .view-header {
+  background-color: #000000 !important;
+}
+
+/* ---- BORDES Y LINEAS DE TODA LA INTERFAZ EN NEGRO #000000 ----
+   Oscuridad total: las lineas de separacion se funden con el fondo.
+   Degradados de 0.5px negros para no dejar residuos claros */
+body {
+  --border-color: #000000;
+  --border-width: 0.5px;
+  --background-modifier-border: #000000 !important;
+}
+/* 1) Se anulan los bordes nativos gruesos */
+.workspace-tab-header-container,
+.view-header,
+.workspace-tab-header,
+.workspace-ribbon,
+.status-bar,
+.workspace-sidedock-vault-profile,
+.workspace-tabs {
+  border-color: #000000 !important;
+  border-width: 0 !important;
+}
+/* 2) Lineas finitas horizontales (0.5px, degradado en el borde) */
+.workspace-tab-header-container,
+.view-header,
+.status-bar,
+.workspace-sidedock-vault-profile {
+  background-image: linear-gradient(#000000, #000000);
+  background-repeat: no-repeat;
+  background-size: 100% 0.5px;
+  background-position: bottom;
+}
+.workspace-tab-header-container {
+  background-position: bottom;
+}
+.status-bar,
+.workspace-sidedock-vault-profile {
+  background-position: top;
+}
+/* 3) Linea finita vertical (borde derecho del ribbon) */
+.workspace-ribbon {
+  background-image: linear-gradient(#000000, #000000);
+  background-repeat: no-repeat;
+  background-size: 0.5px 100%;
+  background-position: right;
+}
+/* 4) Elementos sin borde nativo: linea via box-shadow de 0.5px */
+.titlebar {
+  box-shadow: 0 0.5px 0 #000000;
+}
+.workspace-leaf-resize-handle {
+  box-shadow: 0 0 0 0.5px #000000;
+}
