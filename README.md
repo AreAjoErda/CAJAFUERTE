@@ -2,6 +2,8 @@
 
 **Tema visual para Obsidian inspirado en The Matrix (1999).**
 
+[![Donar con PayPal](https://img.shields.io/badge/Donar-PayPal-blue.svg)](https://bit.ly/donar-paypal-jcarlo)
+
 Interfaz completamente negra con acentos en rosa intenso y morado, el fondo del grafo con **Morfeo sentado en su sillón**, avatar de **NEO** en el perfil del vault, reloj en vivo con fecha, y una barra de iconos personalizada con accesos directos a tus aplicaciones.
 
 ## 📸 Capturas
@@ -44,6 +46,14 @@ Interfaz completamente negra con acentos en rosa intenso y morado, el fondo del 
 - **Barra de iconos con apps**: se necesita el plugin comunitario [obsidian-custom-frames](https://github.com/Ellpeck/ObsidianCustomFrames) para incrustar WhatsApp, YouTube Music, Google Maps, etc.
 - **Reloj con fecha**: plugin comunitario [obsidian-grandfather](https://github.com/...).
 - **Efecto de pulsos en el grafo**: plugin comunitario grafo-vivo.
+
+## 💜 Donaciones
+
+¿Te gusta el tema? Si quieres invitarme un café, lo agradezco muchísimo:
+
+[![Donar con PayPal](https://img.shields.io/badge/Donar-PayPal-blue.svg)](https://bit.ly/donar-paypal-jcarlo)
+
+👉 [https://bit.ly/donar-paypal-jcarlo](https://bit.ly/donar-paypal-jcarlo)
 
 ## 📄 Licencia
 
