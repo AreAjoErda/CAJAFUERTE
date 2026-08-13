@@ -7,6 +7,8 @@
 [![Windows](https://img.shields.io/badge/Windows-%E2%9C%93-0078D6)](https://github.com/AreAjoErda/CAJAFUERTE)
 [![Linux](https://img.shields.io/badge/Linux-%E2%9C%93-FCC624)](https://github.com/AreAjoErda/CAJAFUERTE)
 [![macOS](https://img.shields.io/badge/macOS-%E2%9C%93-000000)](https://github.com/AreAjoErda/CAJAFUERTE)
+[![Visitas](https://visitor-badge.laobi.icu/badge?page_id=AreAjoErda.CAJAFUERTE&left_text=Visitas)](https://github.com/AreAjoErda/CAJAFUERTE)
+[![Comentarios](https://img.shields.io/badge/Comenta-Discussions-238636)](https://github.com/AreAjoErda/CAJAFUERTE/discussions)
 
 Interfaz completamente negra con acentos en rosa intenso y morado, el fondo del grafo con **Morfeo sentado en su sillón**, avatar de **NEO** en el perfil del vault, reloj en vivo con fecha, y una barra de iconos personalizada con accesos directos a tus aplicaciones.
 
@@ -56,6 +58,15 @@ Los plugins opcionales (custom-frames, grandfather, grafo-vivo) son de la comuni
 - **Barra de iconos con apps**: se necesita el plugin comunitario [obsidian-custom-frames](https://github.com/Ellpeck/ObsidianCustomFrames) para incrustar WhatsApp, YouTube Music, Google Maps, etc.
 - **Reloj con fecha**: plugin comunitario [obsidian-grandfather](https://github.com/...).
 - **Efecto de pulsos en el grafo**: plugin comunitario grafo-vivo.
+
+## 💬 Comentarios y feedback
+
+¿Te gusta el tema? ¿Tienes una idea, una duda o un reporte? ¡Tu opinión nos ayuda a mejorar!
+
+- 💭 [**Discussions**](https://github.com/AreAjoErda/CAJAFUERTE/discussions): para comentar, sugerir ideas y conversar con la comunidad.
+- 🐛 [**Issues**](https://github.com/AreAjoErda/CAJAFUERTE/issues): para reportar problemas o pedir funciones.
+
+¡Toda opinión es bienvenida! 🙌
 
 ## 💜 Donaciones
 
