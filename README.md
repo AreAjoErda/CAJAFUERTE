@@ -48,7 +48,7 @@ Funciona en **Windows, Linux y macOS**. El tema está hecho con **CSS puro de Ob
 
 Los plugins opcionales (custom-frames, grandfather, grafo-vivo) son de la comunidad de Obsidian y también funcionan en las tres plataformas.
 
-## 📦 Instalación
+## 📦 Installation (Instalación)
 
 ### Opción A — Desde el catálogo de Obsidian (recomendada)
 
@@ -73,7 +73,7 @@ Si ya usas un tema base y solo quieres los efectos, puedes copiar los CSS de la 
 
 > 💡 **Nota**: el fondo de Morfeo y el avatar de NEO van incrustados en base64 dentro de los CSS, así que el tema funciona tal cual, sin depender de rutas ni archivos externos.
 
-## 🎨 Personalización
+## 🎨 Usage & Customization (Uso y personalización)
 
 - **Colores de acento**: el rosa intenso es `#ff1493` y el morado `#8b00ff`. Puedes cambiarlos con tu propio snippet:
   ```css
