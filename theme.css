@@ -693,14 +693,6 @@ em {
   text-decoration: none;
 }
 
-cm-s-obsidian span.cm-link:not(.cm-formatting-link) .cm-underline {
-  background-image: linear-gradient(
-    to bottom,
-    var(--bg-sub-accent-55) 0%,
-    var(--bg-sub-accent-55) 100%
-  );
-}
-
 .cm-s-obsidian span.cm-formatting-link {
   color: var(--text-faint) !important;
   opacity: 0.25;
