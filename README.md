@@ -22,6 +22,16 @@ Interfaz completamente negra con acentos en rosa intenso y morado, el fondo del 
 
 ![Vista con el grafo minimizado](capturas/captura-grafo-minimizado.png)
 
+### Nuevas capturas
+
+<div align="center">
+  <img src="capturas/captura-1.png" alt="Vista 1" width="49%"/>
+  <img src="capturas/captura-2.png" alt="Vista 2" width="49%"/>
+  <img src="capturas/captura-3.png" alt="Vista 3" width="49%"/>
+  <img src="capturas/captura-4.png" alt="Vista 4" width="49%"/>
+  <img src="capturas/captura-5.png" alt="Vista 5" width="49%"/>
+</div>
+
 ## ✨ Características
 
 - 🖤 **Interfaz en negro puro**: paneles, franja de iconos, pestañas y barra de estado sin líneas visibles.
