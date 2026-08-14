@@ -50,18 +50,38 @@ Los plugins opcionales (custom-frames, grandfather, grafo-vivo) son de la comuni
 
 ## 📦 Instalación
 
-1. Descarga el proyecto: botón **Code** → **Download ZIP**.
-2. Descomprime y copia los archivos de la carpeta `snippets/` a la carpeta de snippets de tu vault:
+### Opción A — Desde el catálogo de Obsidian (recomendada)
+
+1. Abre **Ajustes → Apariencia → Temas**.
+2. Pulsa **Administrar** (o el icono de explorar) para abrir el catálogo de temas de la comunidad.
+3. Busca **Cajafuerte** e instálalo.
+4. Actívalo con el botón **Usar**.
+
+### Opción B — Instalación manual
+
+1. Descarga el proyecto: botón **Code** → **Download ZIP** (o clona el repositorio).
+2. Crea la carpeta del tema en tu vault:
    ```
-   TU_VAULT/.obsidian/snippets/
+   TU_VAULT/.obsidian/themes/Cajafuerte/
    ```
-   (si la carpeta `snippets` no existe, créala).
-3. Abre **Ajustes → Apariencia** y al final de la sección **CSS snippets** activa los dos:
-   - `grafo-fondo-morfeo.css` → el fondo de Morfeo en el grafo.
-   - `interfaz-iconos.css` → colores de iconos, paneles negros, NEO y reloj.
-4. Abre la **Vista gráfica** y disfruta.
+3. Copia dentro `theme.css` y `manifest.json`.
+4. Abre **Ajustes → Apariencia → Temas**, selecciona **Cajafuerte** y listo.
+
+### Opción C — Con snippets (solo personalización)
+
+Si ya usas un tema base y solo quieres los efectos, puedes copiar los CSS de la carpeta `snippets/` a `TU_VAULT/.obsidian/snippets/` y activarlos en **Ajustes → Apariencia → CSS snippets**.
 
 > 💡 **Nota**: el fondo de Morfeo y el avatar de NEO van incrustados en base64 dentro de los CSS, así que el tema funciona tal cual, sin depender de rutas ni archivos externos.
+
+## 🎨 Personalización
+
+- **Colores de acento**: el rosa intenso es `#ff1493` y el morado `#8b00ff`. Puedes cambiarlos con tu propio snippet:
+  ```css
+  .workspace-ribbon { --icon-color: #TU_COLOR; }
+  .graph-view { --background-primary: #000000; }
+  ```
+- **Style Settings**: el tema no depende de [Style Settings](https://github.com/mgmeyers/obsidian-style-settings), pero puedes combinarlo con cualquier plugin de la comunidad.
+- **Plugins recomendados**: consulta la sección *Requisitos opcionales* para la barra de apps (WhatsApp, YouTube Music…), el reloj y los efectos del grafo.
 
 ## 🔌 Requisitos opcionales
 
